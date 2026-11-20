@@ -58,6 +58,7 @@ image2 = cv2.cvtColor(image1, cv2.COLOR_BGR2RGB)
 ```
 
 ## OUTPUT:
+<img width="911" height="507" alt="image" src="https://github.com/user-attachments/assets/b89037df-a6fa-4a20-b2db-91868320c9fe" />
 
 
 
@@ -81,6 +82,8 @@ plt.show()
 ```
 
 ## OUTPUT:
+<img width="673" height="372" alt="image" src="https://github.com/user-attachments/assets/4050da7d-7e69-4a63-9948-440179af833b" />
+
 
 
 ### 4. Weighted Average Filter
@@ -103,6 +106,7 @@ plt.show()
 ```
 
 ## OUTPUT:
+<img width="648" height="382" alt="image" src="https://github.com/user-attachments/assets/a10c4db7-7412-426a-ae28-dd318c714f84" />
 
 
 ### 5. Gaussian Filter
@@ -123,6 +127,8 @@ plt.show()
 ```
 
 ## OUTPUT:
+<img width="911" height="502" alt="image" src="https://github.com/user-attachments/assets/b8e4b78e-6ae9-438b-852f-0151f8227a2c" />
+
 
 ### 6. Median Filter
 
@@ -143,6 +149,8 @@ plt.show()
 ```
 
 ## OUTPUT:
+<img width="677" height="381" alt="image" src="https://github.com/user-attachments/assets/2920aaea-d382-4e50-8317-8a0dd3215089" />
+
 
 ### 7. Laplacian Kernel
 
@@ -164,30 +172,10 @@ plt.show()
 ```
 
 ## OUTPUT:
-
-
-### 8. Laplacian Operator
-
-```python
-laplacian = cv2.Laplacian(image2, cv2.CV_64F)
-
-plt.subplot(1,2,1)
-plt.imshow(image2)
-plt.title("Original Image")
-plt.axis("off")
-
-plt.subplot(1,2,2)
-plt.imshow(laplacian)
-plt.title("Laplacian Operator")
-plt.axis("off")
-plt.show()
-```
-
-## Output
+<img width="637" height="361" alt="image" src="https://github.com/user-attachments/assets/37aa0274-3311-4638-989b-2e7b371dd0cd" />
 
 
 
-
-## Result
+## RESULT:
 
 Thus, different smoothing and sharpening filters were successfully implemented using OpenCV and Python. Smoothing filters reduce noise, while sharpening filters enhance image edges and details.
